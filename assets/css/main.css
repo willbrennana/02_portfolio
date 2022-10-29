@@ -1,10 +1,3 @@
-header,
-main,
-footer {
-    border: 1px solid fuchsia;
-}
-
-
 /* reset */
 body {
     padding: 0;
@@ -15,34 +8,111 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0 auto;
 }
 
-header {
+footer {
+    background-color: #20FC8F;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    font-weight: bold;
+    justify-content: center;
+    padding: 1.5rem;
+    text-align: center;
 }
 
-header,
-main,
-footer {
+header {
+    align-items: center;
+    background-color: fuchsia;
+    border: 1px solid fuchsia;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    justify-content: space-between;
     padding: 1.5rem;
 }
 
+h3:hover {
+    color: black;
+    animation: glow 1s ease-in-out infinite
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
 
 main {
+    background: linear-gradient(fuchsia, #20FC8F);
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
-    max-width: 80rem;
+    justify-content: space-between;
+    padding: 1.5rem;
+
 }
 
 /* classes */
 
+.a {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.fit-picture {
+    width: 300px
+}
+
+.fit-text {
+    width: 300px;
+}
+
 .mt- {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     margin-top: 0.75rem;
 }
 
 .pt {
     padding-top: 1.5rem;
 }
+
+/* media queries */
+
+/* Tablets - navbar changes direction */
+@media screen and (max-width: 992px) {
+
+    nav,
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+/* Large smartphones - navbar changes direction */
+@media screen and (max-width: 768px) {
+
+    nav,
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /* Small smartphones - image placeholders change direction */
+    @media screen and (max-width: 576px) {
+
+        nav,
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    }
