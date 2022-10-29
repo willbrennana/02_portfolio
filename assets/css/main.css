@@ -128,14 +128,15 @@ div {
         flex-wrap: wrap;
         flex-direction: column;
     }
+}
 
-    /* Small smartphones - image placeholders change direction */
-    @media screen and (max-width: 576px) {
+/* Small smartphones - image placeholders change direction */
+@media screen and (max-width: 576px) {
 
-        nav,
-        main {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
+    nav,
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
+}
