@@ -27,7 +27,7 @@ header {
     border: 1px solid fuchsia;
     display: flex;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-weight: 100;
     justify-content: space-between;
     padding: 1.5rem;
 }
@@ -57,22 +57,45 @@ main {
 
 }
 
+div {
+    justify-content: center;
+}
+
 /* classes */
 
 .a {
+    justify-content: space-evenly;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.fit-picture {
+.fit-content {
     width: 300px
 }
 
-.fit-text {
-    width: 300px;
+.icon {
+    height: 50px;
+    width: 50px;
+    border: 4px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    line-height: 5.1rem;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    box-shadow: -1px 9px 13px #404040;
 }
 
-.mt- {
+.icon:hover {
+    margin-top: 185px;
+}
+
+.mt {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
