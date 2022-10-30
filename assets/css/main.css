@@ -1,4 +1,16 @@
 /* element selectors */
+a:active {
+    background-color: transparent;
+    color: fuchsia;
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: transparent;
+    color: fuchsia;
+    text-decoration: underline;
+}
+
 a:link {
     color: fuchsia;
     background-color: transparent;
@@ -11,18 +23,6 @@ a:visited {
     color: fuchsia;
     font-weight: bold;
     text-decoration: none;
-}
-
-a:hover {
-    background-color: transparent;
-    color: fuchsia;
-    text-decoration: underline;
-}
-
-a:active {
-    background-color: transparent;
-    color: fuchsia;
-    text-decoration: underline;
 }
 
 body {
