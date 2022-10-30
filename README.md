@@ -1,8 +1,6 @@
-# portfolio
-Willy B's Coding Commits
-A more personal take on a professional portfolio.
+# Willy B's Coding Commits
 
-After giving this project much consideration, I decided to designate my portfolio site as a space to explore works in progress. 
+After giving this project much consideration, I decided to designate my portfolio site as a space to explore works in progress. Adoptin a more personal take on a professional portfolio.
 
 The more I learn and develop, the further this site will evolve into a gallery of finished, usable, consumer-facing products.
 
