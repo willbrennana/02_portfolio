@@ -11,7 +11,7 @@ That being said, please note that any "snapshot" of my portfolio—current or fu
 As specified in the Challenge Acceptance Criteria, the site includes the following:
 
 ✨ Name and links to sections about me, my work, and how to contact me.
-(Note: Photo is on LinkedIn. No photo or avatar is on this site for the same reason it's not on my resumé. It's tacky.)
+(Note: Photo is on LinkedIn and professional portfolio but not here for the sake of authenticity.)
 
 ✨ The links in the navigation scroll to the corresponding sections.
 
