@@ -108,7 +108,7 @@ main {
     height: 338px;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/Users/will/code/portfolio/assets/images/horiseonwebsite.png');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('./../images/horiseonwebsite.png');
 }
 
 .mt {
