@@ -28,8 +28,8 @@ a:visited {
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
     margin: 0;
 }
 
