@@ -1,6 +1,6 @@
 # Willy B's Coding Commits
 
-After giving this project much consideration, I decided to designate my portfolio site as a space to explore works in progress. Adoptin a more personal take on a professional portfolio.
+After giving this project much consideration, I decided to designate my portfolio site as a space to explore works in progress. Adopting a more personal take on a professional portfolio.
 
 The more I learn and develop, the further this site will evolve into a gallery of finished, usable, consumer-facing products.
 
@@ -10,22 +10,21 @@ That being said, please note that any "snapshot" of my portfolio—current or fu
 
 As specified in the Challenge Acceptance Criteria, the site includes the following:
 
-✨ Name and links to sections about me, my work, and how to contact me.
-(Note: Photo is on LinkedIn and professional portfolio but not here for the sake of authenticity.)
+✨ Photo, name and links to sections about me, my work, and how to contact me.
 
-✨ The links in the navigation scroll to the corresponding sections.
+✨ Links in the navigation scroll to the corresponding sections.
 
-✨ The first application's image is larger in size than the others.
+✨ The first application's image, which is larger in size than the others.
 
-✨ The title of the first application takes you to the deployed application.
-(Note: Text and imagery are separate for design reasons.)
+✨ The title of the first application, which takes you to the deployed application.
 
-✨ The page or view has a responsive layout that adapts to a variety of viewports.
+✨ A responsive layout that adapts to a variety of viewports.
 
 Below is a screenshot of my latest and greatest:
 
+![](assets/images/portfolioscreenshot.png)
 
-To take it for a spin, visit 
+To take it for a spin, visit https://willbrennana.github.io/portfolio/ 
 
 
 
