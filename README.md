@@ -1,4 +1,4 @@
-# Willy B's Coding Commits
+# Willy B's Code Commits
 
 After giving this project much consideration, I decided to designate my portfolio site as a space to explore works in progress. Adopting a more personal take on a professional portfolio.
 
