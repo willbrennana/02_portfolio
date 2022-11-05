@@ -54,6 +54,10 @@ header {
     padding: 1.5rem;
 }
 
+h1 {
+    padding: 10px;
+}
+
 h2,
 h3 {
     font-family: ralewaybold;
@@ -126,6 +130,12 @@ main {
     width: auto;
     max-width: 300px;
     position: relative;
+}
+
+.prof-pic {
+    width: auto;
+    max-width: 100px;
+    padding: 10px;
 }
 
 .secondary {
