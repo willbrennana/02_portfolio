@@ -110,10 +110,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 450px; */
-    /* height: 338px; */
     width: auto;
-    /* height: auto; */
     max-width: 450px;
     height: 338px;
     position: relative;
@@ -144,7 +141,6 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     margin: 0.75rem;
-    padding-bottom: 3.5rem;
     position: relative;
     width: auto;
 }
@@ -173,47 +169,3 @@ main {
         flex-direction: column;
     }
 }
-
-/* Large smartphones - navbar and secondary content change direction */
-/* @media screen and (max-width: 768px) {
-
-    nav,
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-} */
-
-/* Small smartphones - navbar and secondary content change direction */
-/* @media screen and (max-width: 576px) {
-
-    nav,
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-} */
-
-/* Smaller smartphones - navbar and secondary content change direction */
-/* @media screen and (max-width: 412px) {
-
-    nav,
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-} */
-
-/* Smaller smartphones - navbar and secondary content change direction */
-/* @media screen and (max-width: 375px) {
-
-    nav,
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-} */
