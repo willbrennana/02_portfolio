@@ -24,7 +24,7 @@ Below is a screenshot of my latest and greatest:
 
 ![](assets/images/portfolioscreenshot.png)
 
-To take it for a spin, visit https://willbrennana.github.io/portfolio/ 
+To take it for a spin, visit https://willbrennana.github.io/02_portfolio/ 
 
 
 
